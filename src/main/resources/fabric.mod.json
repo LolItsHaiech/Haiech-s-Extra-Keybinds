@@ -24,11 +24,6 @@
     ]
   },
   "mixins": [
-    "haiechextrakeybinds.mixins.json",
-    {
-      "config": "haiechextrakeybinds.client.mixins.json",
-      "environment": "client"
-    }
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

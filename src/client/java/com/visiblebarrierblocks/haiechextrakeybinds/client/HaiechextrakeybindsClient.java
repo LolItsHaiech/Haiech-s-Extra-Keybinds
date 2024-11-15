@@ -18,8 +18,4 @@ public class HaiechextrakeybindsClient implements ClientModInitializer {
 
         KeyInputInit.init();
     }
-
-    public static Identifier id(String path) {
-        return Identifier.of(MOD_ID, path);
-    }
 }
